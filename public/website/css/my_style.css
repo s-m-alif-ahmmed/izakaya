@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-border
+{
+    border: 15px solid #F50099;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-link:hover
+{
+    color: black!important;
+}
+
+.img-border
+{
+    height: 750px;
+    background-image: url("http://localhost/1idea_Office_Work/izakaya/public//website/img/Stop-motion-for-web8_614x340px_2_1024x1024.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.p-127
+{
+    padding-left: 127px !important;
+    padding-right: 127px !important;
+}
+.p-135
+{
+    padding-left: 135px !important;
+    padding-right: 135px !important;
+}
+
+.add-border
+{
+    border: 2px solid #373737 !important;
+}
+
+.order-border
+{
+    border: 2px solid #F50099;
+    font-size: 14px;
+}
+
+.banner
+{
+    height: 700px;
+    width: 100%;
+    background-image: url("http://localhost/1idea_Office_Work/izakaya/public//website/img/izakaya_all_1024x1024.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.nav-hover
+{
+    position: relative;
+}
+
+.nav-hover:hover
+{
+
+}
+
+.nav-hover::after
+{
+    content: "";
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    width: 85%;
+    height: 2px;
+    background-color: #F50099;
+}
+
+.nav-hover:hover::after
+{
+     opacity: 1;
+ }
+
+
+
+
